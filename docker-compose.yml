@@ -1,0 +1,10 @@
+services:
+  portfolio:
+    image: my-portfolio:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: portfolio-container
+    ports:
+      - "3000:80"
+    restart: unless-stopped
