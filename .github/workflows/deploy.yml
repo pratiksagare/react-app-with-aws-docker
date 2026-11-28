@@ -1,4 +1,4 @@
-name: React CI/CD to AWS ECR
+name: React CI/CD to AWS  ECR
 
 on:
   push:
